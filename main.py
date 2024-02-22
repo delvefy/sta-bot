@@ -59,7 +59,7 @@ def main():
         # Prompting the user to enter a command
         command = input("Enter a command (type 'exit' to quit): ")
         if command.lower() == "help":
-           # testfunction()
+            testfunction()
 
         if command.lower() == "hs":
             ticker_symbol = "AAPL"  # Apple Inc.
